@@ -1,7 +1,6 @@
 function checkForSpam(message) {
     message = message.toLowerCase();
-    console.log(message);
-    if (message.includes('spam') || message.includes('sale')) {
+        if (message.includes('spam') || message.includes('sale')) {
         return "true";
     }
     else {
